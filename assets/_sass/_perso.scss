@@ -1,0 +1,54 @@
+.logo {
+
+    margin: 0 0 20px 0;
+
+}
+
+.uri a  {
+    border-bottom: 1px dotted #72cc96;
+    
+
+}
+
+.uri a:hover {
+
+ border-bottom: 1px solidundl #72cc96;
+}
+
+
+
+
+.uri  a[target="_blank"]::after {
+    content: " " url(data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBjbGFzcz0iaS1leHRlcm5hbCIgdmlld0JveD0iMCAwIDMyIDMyIiB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgwLDAsMCwwLjYpIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iNyUiPjxwYXRoIGQ9Ik0xNCA5SDNWMjlIMjNWMThNMTggNEgyOFYxNE0yOCA0IDE0IDE4IiAvPjwvc3ZnPg==);
+    color: #325050;
+}
+
+.about-info p {
+    font-size: 18px;
+}
+
+.main-info, .about-info {
+    
+    max-width: 450px;
+    
+}
+
+.block {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  display: table;
+  > div {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .content {
+    height: 100%;
+  }
+}
+
+.pdf-link {
+  right: 160px;
+}
+
+
